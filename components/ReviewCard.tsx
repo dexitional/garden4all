@@ -9,10 +9,10 @@ type Props = {
    categoryLink?: string;
    title?: string;
    content?: string;
-   link?: string;
+   link: string;
 }
 
-function ReviewCard({ category,categoryImage,categoryLink,title,content,link,image}: Props) {
+function ReviewCard({ category,title,content,link,image}: Props) {
   return (
     <div className="flex flex-col space-y-3">
         <div className="flex items-center space-x-3">
@@ -24,7 +24,7 @@ function ReviewCard({ category,categoryImage,categoryLink,title,content,link,ima
         <div className="space-y-3">
             <Link href=""><h2 className="text-base font-medium">{title}</h2></Link>
             <p className="text-sm line-clamp-5">{content}</p>
-            <Link href={link || '#'} className="px-4 border border-black text-sm inline-block">
+            <Link href={link} className="px-4 border border-black text-sm inline-block">
               <span>Read More +  </span>
             </Link>
         </div>
