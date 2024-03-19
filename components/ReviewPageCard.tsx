@@ -1,7 +1,7 @@
-import Link from 'next/link';
-import React from 'react'
-import P1 from '@/public/rolex1.jpg'
-import Image from 'next/image';
+import Link from &apos;next/link&apos;;
+import React from &apos;react&apos;
+import P1 from &apos;@/public/rolex1.jpg&apos;
+import Image from &apos;next/image&apos;;
 
 type Props = {
    category?: string;
@@ -9,7 +9,7 @@ type Props = {
    categoryLink?: string;
    title?: string;
    content?: string;
-   link?: string;
+   link: string;
 }
 
 function ReviewPageCard({ category,categoryImage,categoryLink,title,content,link}: Props) {
@@ -25,16 +25,16 @@ function ReviewPageCard({ category,categoryImage,categoryLink,title,content,link
             <div className="text-base md:text-lg font-medium space-y-4 leading-7">
               {/* {content} */}
               <h3>A Timeless Classic: A Review of the Rolex Oyster Perpetual Datejust</h3>
-              <p>Rolex, synonymous with luxury and prestige, has carved a niche in the watchmaking world. Today, we delve into the iconic Rolex Oyster Perpetual Datejust, a timepiece that embodies the brand's core values of quality, heritage, and enduring style.</p>
+              <p>Rolex, synonymous with luxury and prestige, has carved a niche in the watchmaking world. Today, we delve into the iconic Rolex Oyster Perpetual Datejust, a timepiece that embodies the brand&apos;s core values of quality, heritage, and enduring style.</p>
               <h3>Unmatched Craftsmanship:</h3>
-              <p>The Datejust boasts a robust 904L stainless steel construction, renowned for its superior corrosion resistance. The watch feels solid and meticulously crafted, a testament to Rolex's commitment to exceptional build quality.</p>
+              <p>The Datejust boasts a robust 904L stainless steel construction, renowned for its superior corrosion resistance. The watch feels solid and meticulously crafted, a testament to Rolex&apos;s commitment to exceptional build quality.</p>
             </div>
            
           </div>
       </div>
       <div className="md:text-lg text-gray-600  space-y-2">
         <h3>Timeless Design:</h3>
-        <p>The design language is one of understated elegance. The classic round case, the signature fluted bezel, and the easily recognizable Rolex crown contribute to the watch's enduring appeal. The watch transcends fleeting trends, offering a sophisticated aesthetic that remains relevant for decades.</p>
+        <p>The design language is one of understated elegance. The classic round case, the signature fluted bezel, and the easily recognizable Rolex crown contribute to the watch&apos;s enduring appeal. The watch transcends fleeting trends, offering a sophisticated aesthetic that remains relevant for decades.</p>
             
         <h3>Verdict:</h3>
         <p>The Rolex Oyster Perpetual Datejust is a watchmaking marvel. It offers exceptional craftsmanship, a timeless design, and reliable performance, justifying its status as a luxury icon. While the price might be a deterrent for some, for those seeking a watch that embodies heritage, quality, and enduring style, the Datejust stands as a compelling choice.</p>
@@ -42,7 +42,7 @@ function ReviewPageCard({ category,categoryImage,categoryLink,title,content,link
         <p>
             You can tailor it further by specifying the particular model (e.g., Datejust 41mm with blue dial).
             Mention additional features like the date complication or the option for different strap materials (Oyster bracelet or Jubilee bracelet).
-            Briefly touch upon the brand's after-sales service, known for its quality and exclusivity.
+            Briefly touch upon the brand&apos;s after-sales service, known for its quality and exclusivity.
             Overall, this review provides a balanced perspective on the Rolex Oyster Perpetual Datejust, highlighting its strengths while acknowledging the price factor.
         </p>
 
