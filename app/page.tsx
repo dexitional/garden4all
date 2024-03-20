@@ -48,8 +48,8 @@ export default function Home() {
       <section className="px-6 md:px-0 w-full">
         <div className="mx-auto py-10 max-w-[68rem] flex flex-col space-y-4">
           <div className="space-y-2">
-            <h1 className="px-4 py- text-2xl font-medium flex items-center justify-between">
-              <span>Projects & Initiatives</span>
+            <h1 className="text-2xl font-medium flex items-center justify-between">
+              <span className="px-6 py-2 bg-primary text-white rounded-r-full">Projects & Initiatives</span>
               <Link href="/intiatives" className="px-3 py-1 bg-black text-sm text-white font-semibold">More</Link>
             </h1>
             <p>Well reviewed products from trusted brands.</p>
@@ -67,7 +67,7 @@ export default function Home() {
         <div className="mx-auto py-6 max-w-[68rem] flex flex-col space-y-4">
           <div className="space-y-2">
             <h1 className="text-2xl font-medium flex items-center justify-between">
-              <span>Project Impact & Stories</span>
+              <span className="px-6 py-2 bg-primary text-white rounded-r-full">Project Impact & Stories</span>
               <Link href="/reviews" className="px-3 py-1 bg-black text-sm text-white font-semibold">More</Link>
             </h1>
             <p>Well reviewed products from trusted brands.</p>
@@ -106,7 +106,7 @@ export default function Home() {
           <div className="space-y-2">
             <h1 className="text-2xl font-medium flex items-center justify-between">
               <span>G4A Shop </span>
-              <Link href="/deals" className="px-3 py-1 bg-primary text-sm text-white font-semibold">Visit Shop</Link>
+              <Link href="/deals" className="px-4 py-1 bg-primary rounded-l-full text-sm text-white font-semibold">Visit Shop</Link>
             </h1>
             <p>Snag the trendiest garden equipment, seeds, supplies, and more; all handpicked by professional and experts it the fields!</p>
           </div>
@@ -126,7 +126,7 @@ export default function Home() {
         <div className="mx-auto py-6 max-w-[68rem] flex flex-col space-y-4">
           <div className="space-y-2">
             <h1 className="text-2xl font-medium flex items-center justify-between">
-              <span>Top Publications & Reviews</span>
+              <span className="px-6 py-2 bg-primary text-white rounded-r-full">Top Publicationsip <a href=""></a></span>
               <Link href="/reviews" className="px-3 py-1 bg-black text-sm text-white font-semibold">Goto Blog</Link>
             </h1>
             <p>Well reviewed articles for potential gardeners and farmers.</p>

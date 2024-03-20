@@ -14,10 +14,10 @@ export default function Home() {
   return (
     <main className="">
       {/* Review Main Section */}
-      <section className="px-6 md:px-0 w-full  border-b-2 bg-gradient-to-r from-slate-300 via-white to-slate-200">
-        <div className="mx-auto md:max-w-[68rem] flex flex-col items-center justify-center min-h-36 md:h-48 space-y-4">
-          <h1 className="text-xl md:text-4xl font-satisy tracking-wider">REVIEWS</h1>
-          <p className="font-satisfy md:text-xl">Most Popular and Vital Reviews For Shoppers</p>
+      <section className="px-6 md:px-0 w-full  border-b-2 bg-gradient-to-r from-primary/20 via-white to-primary/30">
+        <div className="mx-auto md:max-w-[68rem] flex flex-col items-center justify-center min-h-32 md:h-36 space-y-2">
+          <h1 className="text-xl md:text-4xl font-satisy tracking-wider text-primary">CONTACT US</h1>
+          <p className="font-satisfy md:text-lg font-bold uppercase tracking-wider">Please Get in Touch with G4A</p>
         </div>
       </section>
         
