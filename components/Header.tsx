@@ -12,7 +12,7 @@ function Header({}: Props) {
         {/* Top Nav */}
         <div className="w-full">
             <div className="mx-auto pl-40 h-10 max-w-[68rem] flex items-center justify-between">
-                <span className="text-sm"><b className="text-green-800">G4A</b> - <em>Safe Food For Every Home.</em></span>
+                <span className="text-sm"><b className="text-green-800">G4A</b> - <em className="">Safe Food For Every Home.</em></span>
                 <nav className="flex items-center space-x-6 text-xs font-semibold tracking-widest text-green-800">
                    <Link href="#">Projects</Link>
                    <Link href="#">Sponsors</Link>

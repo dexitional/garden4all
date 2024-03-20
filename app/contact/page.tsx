@@ -1,38 +1,43 @@
 import Image from "next/image";
-import Spotbg from '@/public/webmap.webp';
-import ReviewCard from "@/components/ReviewCard";
-import P1 from '@/public/rolex1.jpg'
-import P2 from '@/public/rolex2.jpg'
-import P3 from '@/public/rolex3.jpg'
-import P4 from '@/public/rolex4.jpg'
-import G1 from '@/public/gucci1.jpg'
-import G2 from '@/public/gucci2.jpg'
-import X from '@/public/ps5.jpg'
+import Bg from '@/public/contact_bg.webp'
 
 
-export default function Home() {
+export default function Page() {
   return (
     <main className="">
       {/* Review Main Section */}
       <section className="px-6 md:px-0 w-full  border-b-2 bg-gradient-to-r from-primary/20 via-white to-primary/30">
-        <div className="mx-auto md:max-w-[68rem] flex flex-col items-center justify-center min-h-32 md:h-36 space-y-2">
-          <h1 className="text-xl md:text-4xl font-satisy tracking-wider text-primary">CONTACT US</h1>
-          <p className="font-satisfy md:text-lg font-bold uppercase tracking-wider">Please Get in Touch with G4A</p>
+        <div className="mx-auto md:max-w-[68rem] flex flex-col items-center justify-center min-h-32 md:h-36 space-y-4">
+          <h1 className="text-xl md:text-4xl font-satisy tracking-widest text-primary">CONTACT US</h1>
+          <p className="font-satisfy md:text-2xl font-bold ">Get in Touch with <span className="font-dancing">G4A</span></p>
         </div>
       </section>
         
-      <section className="px-6 md:px-0 mb-10 w-full">
-        <div className="mx-auto py-10 max-w-[68rem] flex flex-col space-y-4">
-         <div className="w-full grid grid-cols-1 md:grid-cols-4 md:gap-x-6 gap-y-10">
-            <ReviewCard category="Wearables & Watches" categoryImage="" categoryLink="" title="Timeless Luxury: Unveiling the Rolex Oyster Perpetual Datejust" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1" image={P1} />
-            <ReviewCard category="Wearables & Watches" categoryImage="" categoryLink="" title="Is the Rolex Datejust Worth the Hype? A Detailed Review" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1"  image={P2}/>
-            <ReviewCard category="Wearables & Watches" categoryImage="" categoryLink="" title="Investing in Timelessness: A Review of the Rolex Oyster Perpetual Datejus" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1"  image={P3}/>
-            <ReviewCard category="Wearables & Watches" categoryImage="" categoryLink="" title="The Rolex Datejust: Unmatched Craftsmanship for Everyday Luxury" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1"  image={P4}/>
-            <ReviewCard category="Wearables" categoryImage="" categoryLink="" title="Timeless Luxury: Unveiling the Rolex Oyster Perpetual Datejust" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1" image={G1} />
-            <ReviewCard category="Wearables" categoryImage="" categoryLink="" title="Is the Rolex Datejust Worth the Hype? A Detailed Review" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1"  image={G2}/>
-            <ReviewCard category="Games & Consoles" categoryImage="" categoryLink="" title="Investing in Timelessness: A Review of the Rolex Oyster Perpetual Datejus" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1"  image={X}/>
-            <ReviewCard category="Watches" categoryImage="" categoryLink="" title="The Rolex Datejust: Unmatched Craftsmanship for Everyday Luxury" content=" Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolor a sunt, non labore aperiam error quasi nisi accusamus eum." link="/reviews/test1"  image={P4}/>
-          </div>
+      <section className="px-2 md:px-0 md:py-6 mb-10 w-full">
+        <div className=" bg-[url('../public/contact_bg.webp')] bg-right-bottom rounded-xl p-4 md:px-10 md:py-10 mx-auto max-w-[68rem] h-fit flex flex-col md:flex-row">
+            <div className="p-3 md:p-6 flex flex-col space-y-4 bg-primary rounded bg-opacity-20 backdrop-blur-sm">
+              <div>
+                <h2 className="rounded bg-primary md:bg-transparent text-base md:text-2xl text-white md:text-primary font-satisfy">Please Fill The Form For A Quick Response.</h2>
+              </div>
+              <form className="flex flex-col space-y-4">
+                <div className="flex flex-col md:flex-row space-y-4 md:space-y-0 md:space-x-4">
+                  <label htmlFor="" className=" bg-white rounded flex-1 shadow">
+                    <input className="px-6 py-3 w-full focus:outline-none placeholder:text-lg" type="text" placeholder="Name" />
+                  </label>
+                  <label htmlFor="" className=" bg-white rounded flex-1 shadow">
+                    <input className="px-6 py-3 w-full focus:outline-none placeholder:text-lg" type="text" placeholder="Email" />
+                  </label>
+                </div>
+                <label htmlFor="" className=" bg-white rounded flex-1 shadow">
+                  <input className="px-6 py-3 w-full focus:outline-none placeholder:text-lg" name="subject" type="text" placeholder="Subject" />
+                </label>
+                <label htmlFor="" className=" bg-white rounded flex-1 shadow">
+                  <textarea className="px-6 py-3 w-full focus:outline-none placeholder:text-lg" name="message" placeholder="Message"></textarea>
+                </label>
+                <button className="px-6 py-3 w-fit bg-primary/80 text-white text-lg font-medium rounded">Send Message</button>
+              </form>
+            </div>
+            <div className={`flex-1 `}></div>
         </div>
       </section>
       

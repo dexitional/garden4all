@@ -15,9 +15,9 @@ export default function Home() {
     <main className="">
       {/* Review Main Section */}
       <section className="px-6 md:px-0 w-full  border-b-2 bg-gradient-to-r from-primary/20 via-white to-primary/30">
-        <div className="mx-auto md:max-w-[68rem] flex flex-col items-center justify-center min-h-32 md:h-36 space-y-2">
-          <h1 className="text-xl md:text-4xl font-satisy tracking-wider text-primary">VEGETABLES</h1>
-          <p className="font-satisfy md:text-lg font-bold uppercase">Crops in Home Gardening</p>
+        <div className="mx-auto md:max-w-[68rem] flex flex-col items-center justify-center min-h-32 md:h-36 space-y-4">
+          <h1 className="text-xl md:text-4xl font-satisy tracking-widest text-primary">VEGETABLES</h1>
+          <p className="font-satisfy md:text-2xl font-bold">Crops in Home Gardening</p>
         </div>
       </section>
         
