@@ -14,7 +14,7 @@ export default function Page() {
       </section>
         
       <section className="px-2 md:px-0 md:py-6 mb-10 w-full">
-        <div className=" bg-[url('../public/contact_bg.webp')] bg-right-bottom rounded-xl p-4 md:px-10 md:py-10 mx-auto max-w-[68rem] h-fit flex flex-col md:flex-row">
+        <div className=" bg-[url('../public/contact_bg.webp')] bg-right-bottom shadow-[0px_0px_5px_#ddd_inset] rounded-xl p-4 md:px-10 md:py-10 mx-auto max-w-[68rem] h-fit flex flex-col md:flex-row">
             <div className="p-3 md:p-6 flex flex-col space-y-4 bg-primary rounded bg-opacity-20 backdrop-blur-sm">
               <div>
                 <h2 className="rounded bg-primary md:bg-transparent text-base md:text-2xl text-white md:text-primary font-satisfy">Please Fill The Form For A Quick Response.</h2>

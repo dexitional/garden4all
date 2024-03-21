@@ -11,9 +11,9 @@ function Header({}: Props) {
     <div className="z-10 w-full">
         {/* Top Nav */}
         <div className="w-full">
-            <div className="mx-auto pl-40 h-10 max-w-[68rem] flex items-center justify-between">
-                <span className="text-sm"><b className="text-green-800">G4A</b> - <em className="">Safe Food For Every Home.</em></span>
-                <nav className="flex items-center space-x-6 text-xs font-semibold tracking-widest text-green-800">
+            <div className="mx-auto px-2 md:pl-40 h-10 md:max-w-[68rem] flex flex-col md:flex-row items-center md:justify-between">
+                <span className="text-xs md:text-sm"><b className="text-green-800">G4A</b> - <em className="">Safe Food For Every Home.</em></span>
+                <nav className="hidden md:flex items-center space-x-6 text-xs font-semibold tracking-widest text-green-800">
                    <Link href="#">Projects</Link>
                    <Link href="#">Sponsors</Link>
                    <Link href="#">Donate</Link>
