@@ -20,9 +20,13 @@ function ReviewPageCard({ title, image, children }: Props) {
       </div>
       <div
         className={`
-      text-gray-600 leading-8 text-xl font-normal 
-        [&_p]:mt-6
-        [&_h3]:mt-10 [&_h3]:font-medium [&_h3]:text-2xl [&_h3]:text-primary
+      text-slate-600 leading-8 text-xl font-normal 
+        [&_p]:mt-6 [&_p]:font-normal
+        [&_h3]:mt-10 [&_h3]:font-normal [&_h3]:text-[1.35rem] [&_h3]:text-primary
+        [&_a]:text-primary hover:[&_a]:text-primary/80
+        [&_strong]:font-semibold
+        [&>h3>strong]:font-bold [&>h3>strong]:tracking-wide [&>h3>strong]:italic [&>h3>strong]:text-[1.35rem]
+        [&_em]:italic
       `}
       >
         {children}
